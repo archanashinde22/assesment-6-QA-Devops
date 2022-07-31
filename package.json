@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +14,11 @@
     "@types/jest": "^27.0.2",
     "@types/selenium-webdriver": "^4.0.16",
     "chromedriver": "^103.0.0",
+    "dotenv": "^16.0.1",
     "express": "^4.17.1",
     "geckodriver": "^2.0.4",
     "jest": "^27.3.1",
-    "rollbar": "^2.24.0",
+    "rollbar": "^2.25.0",
     "selenium-webdriver": "^4.0.0",
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
